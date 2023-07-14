@@ -7,6 +7,10 @@
 
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap');
+  </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ORaoni IA</title>
@@ -16,51 +20,61 @@
     <div id="container">
         <div id="div-content">
             <div id="texts">
-                <img id="icon" src="./assets/MagicWand.svg" alt="">
-                <p id="text">Experimente o poder da Inteligência Artificial</p>
+                <img id="icon-magic" src="./assets/MagicWand.svg" alt="">
+                <p id="text-magic">Experimente o poder da Inteligência Artificial</p>
             </div>
 
             <div id="buttons">
-                <div class="card">
                    <div class="content-text-icon">
-                    <div id="icon-code">
-                        <i class="ph-smiley"></i>
-                        <i class="ph-fill ph-code"></i>
-                        <p>Gerador de códigos</p>
-                    </div>
 
-                    <div id="icon-image">
-                        <i class="ph-smiley"></i>
-                        <i class="ph-fill ph-image"></i>
-                        <p>Edição de foto</p>
+                <div class="card">
+                    <div class="buttons-content">
+                        <img class="icons-buttons" src="./assets/code.svg" alt="Code-icon">
+                        <p id="Gerador-Code">Gerador de códigos</p>
                     </div>
-
-                    <div id="icon-play">
-                        <i class="ph-smiley"></i>
-                        <i class="ph-fill ph-play-circle"></i>
-                        <p>Geração de vídeos</p>
-                    </div>
-
-                    <div id="icon-music">
-                        <i class="ph-smiley"></i>
-                        <i class="ph-fill ph-music-notes-simple"></i>
-                        <p>Criador de áudios e musicas </p>
-                    </div>
-                   </div> 
-
                 </div>
+
+                <div class="card">                
+                    <div class="buttons-content">
+                        <img class="icons-buttons" src="./assets/ImageSquare.svg" alt="Foto-icon">
+                        <p id="Edit-FT">Edição de foto</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="buttons-content">
+                        <img class="icons-buttons" src="./assets/PlayCircle.svg" alt="Play-icon">
+                        <p id="Gerador-Video">Geração de vídeos</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="buttons-content">
+                        <img class="icons-buttons" src="./assets/MusicNotesSimple.svg" alt="Music-icon">
+                        <p id="Gerador-Audio">Criador de áudios e musicas </p>
+                    </div>
+                </div>
+            </div> 
+
             </div>
+
+
+
         </div>
 
         <hr>
+        <div id="input">
+            <div id="content">
+                <img src="./assets/PlusCircle.png" alt="">
+                <label for="idtexto"></label>
+                <input type="text" id="idtexto" name="idtexto">
+                <p>Envie uma mensagem ou digite “/” para exibir os comandos</p>
+            </div>
 
-        <div id="content">
-            <img src="./assets/PlusCircle.png" alt="">
-            <i class="ph-smiley"></i>
-            <i class="ph-fill ph-paper-plane-right"></i>
-            <label for="idtexto"></label>
-            <input type="text" id="idtexto" name="idtexto">
-            <p>Envie uma mensagem ou digite “/” para exibir os comandos</p>
+            <div id="icon-send">
+                <i class="ph-smiley"></i>
+                <i class="ph-fill ph-paper-plane-right"></i>
+            </div>
         </div>
     </div>
 </body>

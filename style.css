@@ -15,5 +15,141 @@
 }
 
 body {
-    background: url(./assets/bg.png) no-repeat ;
+    background: url(./assets/bg.png) lightgray 50% / cover no-repeat; ;
 }
+
+#container {
+    display: flex;
+    width: 1216px;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+    border-radius: 32px;
+    border: 1px solid var(--gray-04, #334155);
+    background: rgba(2, 6, 23, 0.80);
+}
+
+#div-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+#text-magic {
+    align-self: stretch;
+
+    color: var(--gray-01, #F8FAFC);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#icon-magic {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 16px;
+    border: 1px solid var(--gray-05, #1E293B);
+    background: var(--gray-06, #0F172A);
+}
+
+#buttons {
+    display: flex;
+    width: 608px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+
+    border-radius: 16px;
+    border: 1px solid var(--gray-04, #334155);
+    background: var(--gray-06, #0F172A);
+}
+
+.buttons-content {
+
+}
+
+#content-text-icon {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.icons-buttons {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 8px;
+
+    border-radius: 16px;
+    border: 1px solid var(--gray-05, #1E293B);
+    background: var(--gray-06, #0F172A);
+}
+
+#Gerador-Code {
+    color: var(--gray-02, #E2E8F0);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#Edit-FT {
+    color: var(--gray-02, #E2E8F0);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#Gerador-Video {
+    color: var(--gray-02, #E2E8F0);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#Gerador-Audio {
+    color: var(--gray-02, #E2E8F0);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+
+
