@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root {
+    --gray-01: rgba(248, 250, 252, 1);
+    --gray-02: rgba(226, 232, 240, 1);
+    --gray-03: rgba(148, 163, 184, 1);
+    --gray-04: rgba(51, 65, 85, 1);
+    --gray-05: rgba(30, 41, 59, 1);
+    --gray-06: rgba(15, 23, 42, 1);
+    --gray-07: rgba(2, 6, 23, 1);
+}
+
+body {
+    background: url(./assets/bg.png) no-repeat ;
+}
